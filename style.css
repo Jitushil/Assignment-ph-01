@@ -46,7 +46,7 @@ ul {
 /* Background Image, overlay */
 
 .hero {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,22 +62,72 @@ ul {
 }
 
 .cheat {
-    font-size: 90px;
+    font-size: 80px;
 }
 
 .overlay p {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: lighter;
 }
 
 .btnn {
     position: relative;
-    top: 300px;
+    top: 280px;
     background: #1D4ED8;
     color: #fff;
     font-size: 30px;
-    
     padding: 30px 60px;
     border-radius: 15px;
 }
 
+
+/* mentor section */
+
+.speakers {
+    padding: 80px 8%;
+}
+
+.speakers h2 {
+    text-align: center;
+    font-size: 64.4px;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 32px;
+
+}
+
+.card{
+    background: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card h5{
+    color: #2563EB;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 18px 20px 8px;
+}
+
+.card h3 {
+    margin: 0 20px 8px;
+    font-size: 27.5px;
+}
+
+.card p{
+    font-size: 21px;
+    margin: 0 20px 20px;
+    color: #575757;
+}
+
+/* Pricing section */
