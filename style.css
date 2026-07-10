@@ -42,3 +42,42 @@ ul {
     font-size: 25.6px;
     
 }
+
+/* Background Image, overlay */
+
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-image: url("assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero .overlay {
+    text-align: center;
+}
+
+.cheat {
+    font-size: 90px;
+}
+
+.overlay p {
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.btnn {
+    position: relative;
+    top: 300px;
+    background: #1D4ED8;
+    color: #fff;
+    font-size: 30px;
+    
+    padding: 30px 60px;
+    border-radius: 15px;
+}
+
