@@ -68,13 +68,13 @@ ul {
     align-items: center;
     justify-content: center;
     color: #fff;
-    background-image: url("assets/banner.jpg");
+    background: linear-gradient(45deg,rgba(0, 0, 0, 1) 4%, rgba(0, 0, 0, 0.88) 15%, rgba(0, 0, 0, 0) 95%),
+    url("assets/banner.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
 }
-
-
 
 .hero .overlay {
     text-align: center;
@@ -83,6 +83,10 @@ ul {
 
 .cheat {
     font-size: 80px;
+}
+
+.overlay span {
+    color: #1D4ED8;
 }
 
 .overlay p {
@@ -296,7 +300,7 @@ ul {
 }
 
 .section-title h2 span {
-    color: ;
+    color: #1D4ED8;
 }
 
 .section-title p{
@@ -341,3 +345,42 @@ ul {
     line-height:1.6;
 }
  
+.footer{
+    background: #ffffff;
+    padding: 40px 10%;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.footer-logo img{
+    width: 150px;
+    height: auto;
+}
+
+.social-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons img{
+    width: auto;
+    height: 40px;
+}
+
+.footer hr{
+    border: none;
+    height: 1px;
+    background: #d1d5db;
+    margin-bottom: 20px;
+}
+
+.copyright{
+    text-align: center;
+    color: #6b7280;
+    font-size: 15px;
+}
