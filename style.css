@@ -74,8 +74,11 @@ ul {
     background-repeat: no-repeat;
 }
 
+
+
 .hero .overlay {
     text-align: center;
+    
 }
 
 .cheat {
@@ -274,3 +277,67 @@ ul {
     cursor: pointer;
 }
 
+/* Extra section using AI */
+
+.benefits{
+    background:#0f172a;
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    color:#ffffff;
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.section-title h2 span {
+    color: ;
+}
+
+.section-title p{
+    color:#cbd5e1;
+    max-width:700px;
+    margin:auto;
+    line-height:1.7;
+}
+
+.benefit-box{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.box{
+    width:260px;
+    background:#1e293b;
+    padding:30px;
+    border-radius:12px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.box:hover{
+    transform:translateY(-8px);
+}
+
+.icon{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.box h3{
+    color:white;
+    margin-bottom:15px;
+}
+
+.box p{
+    color:#cbd5e1;
+    line-height:1.6;
+}
+ 
